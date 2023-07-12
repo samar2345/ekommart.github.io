@@ -1,0 +1,19 @@
+/* Header */
+.head2 form{
+    width: 17.2rem;
+}
+/* Background */
+/* Location */
+.location iframe{
+    height: 98%;
+}
+/* Details */
+/* .details{
+    flex-wrap: wrap;
+    Causes Problem
+} */
+.details .form{
+    margin-right: 3rem;
+}
+/* Brands */
+/* Footer */

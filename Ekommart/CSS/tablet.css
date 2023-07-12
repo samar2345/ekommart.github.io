@@ -1,0 +1,43 @@
+/* Header */
+header{
+    flex-direction: column;
+    align-items: center;
+}
+.head2{
+    border: none;
+}
+.research2{
+    justify-content: center;
+    /* Isn't working in phone css */
+}
+.research form{
+    width: 17.1rem;
+}
+header .head2 .info .contact{
+    margin: 0px 25px 30px 20px;
+}
+.shipping{
+    padding: 0px 25px 30px 20px;  
+}
+/* Background */
+/* Location */
+.location iframe{
+    /* margin-top: 13%; */
+    height: 98%;
+    /* problem with alignment    */
+}
+/* Details */
+.details {
+    flex-direction: column;
+}
+.details form{
+    margin-bottom: 5rem;
+}
+.details .employees{
+    align-items: center;
+}
+/* Brands */
+/* Footer */
+.extra{
+    margin:0.8rem;
+}

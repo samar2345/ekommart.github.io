@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <!-- Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Agdasima -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/utility.css">
+    <link rel="stylesheet" href="./CSS/laptop.css" media="only screen and (max-width: 1024px)">
+    <link rel="stylesheet" href="./CSS/tablet.css" media="only screen and (max-width: 767px)">
+    <link rel="stylesheet" href="./CSS/phone.css" media="screen and (max-width: 480px)">
+
+    <!-- JavaScript -->
+    <!-- FavIcon -->
+    <link type="image/png" sizes="16x16" rel="icon" href="./Resources/Favicon/icons8-clothes-16.png">
+    <!-- Icons -->
+    <!-- Twitter -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Profile far fa-user-->
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <!-- Profile fas fa-user-alt-->
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <!-- Basket  -->
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <!-- Home -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Address Book -->
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <title>Ekommart</title>
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <!-- HEADER STARTS -->
+    <header class="header flex justify-space-around">
+        <div class="header-img">
+            <img src="./Resources/Logo Header.png" alt="">
+        </div>
+        <div class="head2 flex column justify-space-evenly">
+            <div class="research flex">
+                <div class="">
+                    <form class="" action="">
+                        <i class="fa fa-search" style="font-weight: 100;"></i>
+                        <input class="" type="search" placeholder="Search products...">
+                        <button class="search-button font" type="submit">Search</button>
+                    </form>
+                </div>
+                <div class="info flex align-center">
+                    <div class="contact">
+                        <p class="p1">+84 800 456 789</p>
+                        <p class="p2">CALL US FREE</p>
+                    </div>
+                    <div class="shipping">
+                        <p class="p1">FREE SHIPPING</p>
+                        <p class="p2">ON ORDERS OVER $150.0</p>
+                    </div>
+                </div>
+                <div class="icons flex">
+                    <a href="#"><i class="fa fa-user" style="font-size:24px;color:#f43444;"></i></a>
+                    <a href="#"><i class="fa fa-heart-o" style="font-size:24px;color:#f43444;"></i></a>
+                    <a href="#"><i class='fa fa-shopping-basket' style='font-size:24px;color:#f43444;'></i></a>
+                    <p class="p1">$0.00</p>
+                </div>
+            </div>
+            <div class="research2 flex">
+                <div class="dropdowns font">
+                    <select name="home" id="home">
+                        <option value="" selected disabled>Home</option>
+                        <option value="option1">Option1</option>
+                        <option value="option2">Option2</option>
+                        <option value="option2">Option2</option>
+                    </select>
+                    <a href="#" class="font">About</a>
+                    <select name="shop" id="shop">
+                        <option value="" selected disabled>Shop</option>
+                        <option value="option1">Option1</option>
+                        <option value="option2">Option2</option>
+                        <option value="option2">Option2</option>
+                    </select>
+                    <select name="blog" id="blog">
+                        <option value="" selected disabled>Blog</option>
+                        <option value="option1">Option1</option>
+                        <option value="option2">Option2</option>
+                        <option value="option2">Option2</option>
+                    </select>
+                    <select name="pages" id="pages">
+                        <option value="" selected disabled>Pages</option>
+                        <option value="option1">Option1</option>
+                        <option value="option2">Option2</option>
+                        <option value="option2">Option2</option>
+                    </select>
+                    <a href="#"><span style="color:red">Contact </span></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER ENDS -->
+
+
+    <!-- BACKGROUND STARTS -->
+    <div class="background dark-grey flex column align-center">
+        <div class="heading">
+            <p class="white font">Contact</p>
+        </div>
+        <div class="text">
+            <i class="fa fa-home" style="font-size:15px"></i>
+            <p class="inline"> <a href="#" class="white font" style="font-size: 13px;">Home</a> <span id="bg-link"
+                    style="color:grey">> <a href="#">Contact</a></span></p>
+        </div>
+    </div>
+    <!-- BACKGROUND ENDS -->
+
+    <!-- LOCATION STARTS -->
+    <div class="location flex">
+        <div class="text">
+            <div class="heading">
+                <h2>Visit one of our agency<br>locations or<br>contact us today</h2><br>
+            </div>
+            <div class="info">
+                <h3 class="black">Head Office</h3>
+                <p><i class="fa fa-map" style="color: #000000;"></i> 56 Glassford Street Glasgow G1 G11UL New York</p>
+                <p><i class="fa fa-phone" style="color: #000000;"></i> contact@example.com</p>
+                <p><i class="fa fa-envelope" style="color: #000000;"></i> +844 123 456 78</p>
+                <p><i class="fa fa-clock" style="color: #000000;"></i> Monday to Saturday: 9:00am to 16pm</p><br>
+            </div>
+        </div>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9933.948469938668!2d-0.1200979!3d51.5042787!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604b900d26973%3A0x4291f3172409ea92!2slastminute.com%20London%20Eye!5e0!3m2!1sen!2sin!4v1688368495596!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <!-- LOCATION ENDS -->
+
+    <!-- DETAILS START -->
+    <div class="details flex">
+        <div class="form">
+            <p class="p1">LEAVE A MESSAGE</p><br>
+            <h2 class="h2">We love to hear from you</h2><br>
+            <form class="" action="">
+                <input type="text" placeholder="Your Name"><br>
+                <input type="text" placeholder="Email"><br>
+                <input type="text" placeholder="Subject"><br>
+                <textarea name="message" id="" cols="60" rows="5" placeholder="Message"></textarea><br><br><br>
+                <button class="" type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="employees flex column">
+            <div class="emp1 flex">
+                <img class="image" src="./Resources/Emp1.png" alt="">
+                <div class="text">
+                    <h3>John Doe</h3>
+                    <p>Senior Marketing Manager</p>
+                    <p>Phone: +844 123 444 77 88</p>
+                    <p>Email: contact@example.com</p>
+                </div>
+            </div>
+            <div class="emp2 flex">
+                <img class="image" src="./Resources/Emp2.png" alt="">
+                <div class="text">
+                    <h3>William Smith</h3>
+                    <p>Recruiting Manager</p>
+                    <p>Phone: +844 123 444 77 88</p>
+                    <p>Email: contact@example.com</p>
+                </div>
+            </div>
+            <div class="emp3 flex">
+                <img class="image" src="./Resources/Emp3.png" alt="">
+                <div class="text">
+                    <h3>Emma Stone</h3>
+                    <p>Human Resource</p>
+                    <p>Phone: +844 123 444 77 88</p>
+                    <p>Email: contact@example.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- DETAILS END-->
+
+    <!-- BRANDS START -->
+    <div class="brands flex justify-space-around">
+        <img src="./Resources/Brands.png" alt="">
+    </div>
+    <!-- BRANDS END -->
+
+    <!-- FOOTER STARTS -->
+    <footer class="flex white justify-space-between ">
+        <div class="contact">
+            <h5>CONTACT US</h5><br>
+            <p>If you have any question, please<br>contact us at<br><span style="color:gray;">support@example.com</span>
+            </p><br>
+            <div class="number flex">
+                <div class="" style="margin-right:10px">
+                    <i class="fa fa-phone" style="font-size:36px;"></i>
+                </div>
+                <div>
+                    <h2 class="inline"><span style="font-size:20px">+048</span> 800 456<br>789</h2>
+                </div>
+            </div>
+        </div>
+        <div class="store">
+            <h5>STORE LOCATION</h5><br>
+            <p>Box 565, Charlestown, Nevis, West<br>Indies,Caribbean</p><br><br>
+            <p>Monday-Friday: 8am - 4pm<br>Saturday: 9am - 5am</p>
+        </div>
+        <div class="categories">
+            <h5>CATEGORIES</h5><br>
+            <p>For Men</p>
+            <p>For Women</p>
+            <p>Accessories</p>
+            <p>Collections</p>
+            <p>Other</p>
+        </div>
+        <div class="extra">
+
+        </div>
+        <div class="newsletter">
+            <h5>NEWSLETTER</h5><br>
+            <p>Subscribe to the weekly newsletter for all the<br>latest updates</p><br>
+            <div class="email">
+                <form>
+                    <input type="text" name="email" id="email" placeholder="Your Email...">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER ENDS -->
+</body>
+
+</html>
